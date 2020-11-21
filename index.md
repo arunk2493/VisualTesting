@@ -30,7 +30,7 @@ The above 3 aspects are very important for an application that needs to be a vis
   
    Comparing the screenshots with the current and the latest build by manually or using some tools
   
-  ## Automation Tools for Visual Testing
+   ## Automation Tools for Visual Testing
   
    There are many tools for performing the visual testing. But the most poweful, interactive tools for performing this testing are,
     
