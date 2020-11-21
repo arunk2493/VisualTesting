@@ -30,12 +30,27 @@ The above 3 aspects are very important for an application that needs to be a vis
   
   Comparing the screenshots with the current and the latest build by manually or using some tools
   
+  ## Automation Tools for Visual Testing
+  
+   There are many tools for performing the visual testing. But the most poweful, interactive tools for performing this testing are,
+   1. Applitools
+   2. Chromatic
+   
+   Both these tools are licensed, unique and they provide their own features including the dashboard for each project and account, running the code against the git commits, integrating with CI and executing the code upon multiple platforms,browsers(Applitools)
+   
+   Applitools supports almost all the programming languages whereas Chromatic supports all the UI languages integrated with StoryBook. 
+   
+   - To know about [StoryBook](https://storybook.js.org/)
+   - To know about [Applitools](https://applitools.com/)
+   - To know about [Chromatic](https://www.chromatic.com/)
+  
   ## A Quick look of how Visual Testing using automation works
    
    - Run the test code against the stable build of the application and capture the screenshot (Base Line Images)
    - Now let's consider any new UI change has occured, 
       
-      For example let's consider a Fashion Retail Application. In the stable build if we apply any filter criteria the result page is loaded correctly. But in the next build there was some UI alignment changes made and we don't know how it will reflected until unless we push the changes to the dev / localhost environment. So to avoid such confusions before deploying the UI part to the dev / test environment we can write an automation code with some of the visual testing tools to compare the stable build UI elements with the current build's UI element and see if any major changes has happened.
+      For example let's consider a Fashion Retail Application. In the stable build if we apply any filter criteria the result page alignment is loaded correctly. But in the current build there was some UI alignment changes made and we don't know how it will reflected until unless we push the changes to the dev / localhost environment.
+      So to avoid such confusions before deploying the UI part to the dev / test environment we can write an automation code with some of the visual testing tools to compare the stable build UI elements with the current build's UI element and see if any major changes has happened.
       
       If there are some changes in the DOM content then either we can accept those changes and push the changes to our repository or else we can reject the changes and again work on those part and make it better
   
@@ -44,4 +59,12 @@ The above 3 aspects are very important for an application that needs to be a vis
   So from the above scenario it's clear that we can able to visually compare the UI of an application with stable and current builds by capturing the screenshots and verifying with the DOM content.
   
   _Here stable and current build refers to UAT and Dev environment respectively._
+  
+  This blog is purely based upon my learnings, if anything needs to be added, always open to accept feedbacks.
+  
+  Will try post some code based blog with Applitools and Chromatic in my future posts.
+  
+  ## Learn..Educate..and Shine!!
+  
+  
 
