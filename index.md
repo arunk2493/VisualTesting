@@ -35,9 +35,13 @@ The above 3 aspects are very important for an application that needs to be a vis
    - Run the test code against the stable build of the application and capture the screenshot (Base Line Images)
    - Now let's consider any new UI change has occured, 
       
-      For example let's consider a Fashion Retail Application. In the stable build if we apply any filter criteria the result page is loaded correctly. But in the next build there was UI alignment changes made and we don't know how it will reflected until unless we push the changes to the dev / localhost environment. So to avoid such confusions before deploying the UI part to the dev / test environment we can write an automation code to compare the prevoius build application UI elements with the current build's UI element and see if any major changes has happened.
+      For example let's consider a Fashion Retail Application. In the stable build if we apply any filter criteria the result page is loaded correctly. But in the next build there was some UI alignment changes made and we don't know how it will reflected until unless we push the changes to the dev / localhost environment. So to avoid such confusions before deploying the UI part to the dev / test environment we can write an automation code with some of the visual testing tools to compare the stable build UI elements with the current build's UI element and see if any major changes has happened.
       
       If there are some changes in the DOM content then either we can accept those changes and push the changes to our repository or else we can reject the changes and again work on those part and make it better
   
   ![Visual Testing](https://qanish.files.wordpress.com/2019/02/screenshot-difference-e1545051723765-1.png?w=1312&h=600&crop=1)
+  
+  So from the above scenario it's clear that we can able to visually compare the UI of an application with stable and current builds by capturing the screenshots and verifying with the DOM content.
+  
+  _Here stable and current build refers to UAT and Dev environment respectively._
 
