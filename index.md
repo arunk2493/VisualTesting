@@ -55,6 +55,8 @@ The above 3 aspects are very important for an application that needs to be a vis
       So to avoid such confusions before deploying the UI part to the dev / test environment we can write an automation code with some of the visual testing tools to compare the stable build UI elements with the current build's UI element and see if any major changes has happened.
       
       If there are some changes in the DOM content then either we can accept those changes and push the changes to our repository or else we can reject the changes and again work on those part and make it better
+      
+      - Compare the stable build UI screenshot(Baseline Screenshot) with the current build screenshot(Actual UI screenshot)
   
   ![Visual Testing](https://qanish.files.wordpress.com/2019/02/screenshot-difference-e1545051723765-1.png?w=1312&h=600&crop=1)
   
