@@ -36,7 +36,7 @@ The above 3 aspects are very important for an application that needs to be a vis
    1. Applitools
    2. Chromatic
    
-   Both these tools are licensed, unique and they provide their own features including the dashboard for each project and account, running the code against the git commits, integrating with CI and executing the code upon multiple platforms,browsers(Applitools)
+   Both these tools are licensed, unique and they provide their own features including the dashboard for each project and account, running the code against the git commit(Chromatic), integrating with CI and executing the code upon multiple platforms,browsers(Applitools)
    
    Applitools supports almost all the programming languages whereas Chromatic supports all the UI languages integrated with StoryBook. 
    
