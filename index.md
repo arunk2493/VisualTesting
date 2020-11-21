@@ -29,4 +29,6 @@ The above 3 aspects are very important for an application that needs to be a vis
 - HOW can we do the testing?
   
   Comparing the screenshots with the current and the latest build by manually or using some tools
+  
+  ![Visual Testing](https://qanish.files.wordpress.com/2019/02/screenshot-difference-e1545051723765-1.png?w=1312&h=600&crop=1)
 
