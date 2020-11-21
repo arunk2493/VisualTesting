@@ -57,6 +57,7 @@ The above 3 aspects are very important for an application that needs to be a vis
       If there are some changes in the DOM content then either we can accept those changes and push the changes to our repository or else we can reject the changes and again work on those part and make it better
       
       - Compare the stable build UI screenshot(Baseline Screenshot) with the current build screenshot(Actual UI screenshot)
+      
   
   ![Visual Testing](https://qanish.files.wordpress.com/2019/02/screenshot-difference-e1545051723765-1.png?w=1312&h=600&crop=1)
   
