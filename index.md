@@ -1,4 +1,4 @@
-## Visual Testing!!
+## Visual Testing
 
 In the current testing world, Visual Testing is one of the most buzz word technology among the QAs in the industry. What is Visual Testing????
 
