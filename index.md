@@ -46,7 +46,7 @@ The above 3 aspects are very important for an application that needs to be a vis
    - To know about [Applitools](https://applitools.com/)
    - To know about [Chromatic](https://www.chromatic.com/)
   
-  ## A Quick look of how Visual Testing using automation works
+   ## A Quick look of how Visual Testing using automation works
    
    - Run the test code against the stable build of the application and capture the screenshot (Base Line Images)
    - Now let's consider any new UI change has occured, 
