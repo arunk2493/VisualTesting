@@ -33,8 +33,8 @@ The above 3 aspects are very important for an application that needs to be a vis
   ## Automation Tools for Visual Testing
   
    There are many tools for performing the visual testing. But the most poweful, interactive tools for performing this testing are,
-   1. Applitools
-   2. Chromatic
+    1. Applitools
+    2. Chromatic
    
    Both these tools are licensed, unique and they provide their own features including the dashboard for each project and account, running the code against the git commit(Chromatic), integrating with CI and executing the code upon multiple platforms,browsers(Applitools)
    
