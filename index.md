@@ -10,27 +10,27 @@ The above 3 aspects are very important for an application that needs to be a vis
 
 ## What,Who,Where,When & How - Visual Regression Testing
 
-  ## WHAT is Visual Regression Testing?
+  ##  WHAT is Visual Regression Testing?
  
    A technique which performs front end / User Interface elements testing by taking screenshots of webpages / UI components and compare them with the original         images(baseline screenshots)
 
-  ## WHO are responsible for performing the testing?
+  ##  WHO are responsible for performing the testing?
   
    Quality Analyst / UI developers
 
-  ## WHERE the testing occurs?
+  ##  WHERE the testing occurs?
  
    As we are going to use StoryBook so the testing occurs in an isolated environment without worrying about the app specific dependencies and requirements
  
-  ## WHEN the testing can be conducted?
+  ##  WHEN the testing can be conducted?
  
    During any new UI component development / Changes
   
-  ## HOW can we do the testing?
+  ##  HOW can we do the testing?
   
    Comparing the screenshots with the current and the latest build by manually or using some tools
   
-  ## Automation Tools for Visual Testing
+  ##  Automation Tools for Visual Testing
   
    There are many tools for performing the visual testing. But the most poweful, interactive tools for performing this testing are,
     
@@ -46,14 +46,14 @@ The above 3 aspects are very important for an application that needs to be a vis
    - To know about [Applitools](https://applitools.com/)
    - To know about [Chromatic](https://www.chromatic.com/)
    
-  ## Ways how visual testing can be done in automation
+  ##  Ways how visual testing can be done in automation
    
    - The first way is we can run our test scripts across UAT and Test environments and verify the visual aspects after any change in the UI
    - Another way is we can run our test scripts across the git commits i.e, the last commit and current commit.
    
    So, from this we understood that the visual testing can be done across the environments and also across the last and the current commit in the git.
   
-  ## A Quick look of how Visual Testing using automation works with the First Way
+  ##  A Quick look of how Visual Testing using automation works with the First Way
    
    - Run the test code against the stable build of the application and capture the screenshot (Base Line Images)
    - Now let's consider any new UI change has occured, 
