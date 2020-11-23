@@ -48,12 +48,12 @@ The above 3 aspects are very important for an application that needs to be a vis
    
    ## Ways how visual testing can be done in automation
    
-   - The fisrt way is we can run our test scripts across UAT and Test environments and verify the visual aspects after any change in the UI
+   - The first way is we can run our test scripts across UAT and Test environments and verify the visual aspects after any change in the UI
    - Another way is we can run our test scripts across the git commits i.e, the last commit and current commit.
    
    So, from this we understood that the visual testing can be done across the environments and also across the last and the current commit in the git.
   
-   ## A Quick look of how Visual Testing using automation works with the Fisrt Way
+   ## A Quick look of how Visual Testing using automation works with the First Way
    
    - Run the test code against the stable build of the application and capture the screenshot (Base Line Images)
    - Now let's consider any new UI change has occured, 
